@@ -1,0 +1,54 @@
+name: cdg_app_v1
+description: A new Flutter project.
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  qr_flutter: ^4.1.0
+  flutter_barcode_scanner: ^2.0.0
+  shared_preferences: ^2.2.2
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  aad_oauth: ^0.4.4
+  flutter_dotenv: ^5.1.0
+  dio: ^5.3.3
+  path_provider: ^2.1.1
+  flutter_contacts: ^1.1.7+1
+  another_flushbar: ^1.12.30
+  permission_handler: ^11.0.1
+  share_plus: 6.3.4
+  url_launcher: ^6.2.1
+  flutter_sticky_header: ^0.6.5
+  image_gallery_saver: ^2.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env
+    - assets/images/
+    - assets/fonts/AktivGrotesk/
+
+  fonts:
+    - family: Anantason
+      fonts:
+        - asset: assets/fonts/Anantason/AnantasonReno.otf
+    - family: GothamLight
+      fonts:
+        - asset: assets/fonts/GothamLight.ttf
+    - family: GothamMedium
+      fonts:
+        - asset: assets/fonts/GothamMedium.ttf
+    - family: Kanit
+      fonts:
+        - asset: assets/fonts/Kanit-Regular.ttf
