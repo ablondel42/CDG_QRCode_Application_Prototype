@@ -2,7 +2,6 @@ import 'package:cdg_app_v1/pages/home.dart';
 import 'package:cdg_app_v1/pages/utils/globals.dart';
 import 'package:cdg_app_v1/services/database.dart';
 import 'package:cdg_app_v1/services/user_model.dart';
-import 'package:flutter/rendering.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

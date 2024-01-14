@@ -1,9 +1,5 @@
 import 'package:flutter/material.dart';
 
-/// This file contains the colors used throughout the application
-/// It helps to avoid rewriting the colors all the time, by simply accessing
-/// the Theme data of the widget context.
-
 final textTheme = TextTheme(
   labelSmall: TextStyle(
     color: lightColorScheme.primary,
@@ -64,6 +60,7 @@ final textTheme = TextTheme(
   displayLarge: TextStyle(
     color: lightColorScheme.primary,
     fontFamily: 'Anantason',
+    fontSize: 48.0,
   ),
 );
 
