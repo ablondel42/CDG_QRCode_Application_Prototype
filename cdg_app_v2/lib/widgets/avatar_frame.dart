@@ -1,5 +1,8 @@
 import 'package:flutter/widgets.dart';
 
+//TODO: implement a function to resize the image and
+// improve performance
+
 class AvatarFrame extends StatefulWidget {
   const AvatarFrame({super.key});
 
@@ -40,9 +43,9 @@ class _AvatarFrameState extends State<AvatarFrame> {
                     decoration: const BoxDecoration(
                       shape: BoxShape.circle,
                     ),
-                    child: const Image(
-                      image: AssetImage('assets/images/LauncherIcon.png'),
-                    ),
+                    //child: const Image(
+                    //  image: AssetImage('assets/images/LauncherIcon.png'),
+                    //),
                   ),
                 ),
               ),

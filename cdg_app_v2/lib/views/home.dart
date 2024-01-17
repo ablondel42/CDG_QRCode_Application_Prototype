@@ -1,5 +1,5 @@
 import 'package:cdg_app_v2/widgets/user_header.dart';
-import 'package:cdg_app_v2/widgets/sliver_item.dart';
+import 'package:cdg_app_v2/widgets/contact_list_tile.dart';
 import 'package:flutter/material.dart';
 
 class HomeView extends StatefulWidget {
