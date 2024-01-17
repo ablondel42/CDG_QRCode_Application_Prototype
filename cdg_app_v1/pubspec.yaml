@@ -19,12 +19,11 @@ dependencies:
   dio: ^5.3.3
   path_provider: ^2.1.1
   flutter_contacts: ^1.1.7+1
-  another_flushbar: ^1.12.30
   permission_handler: ^11.0.1
   share_plus: 6.3.4
   url_launcher: ^6.2.1
-  flutter_sticky_header: ^0.6.5
   image_gallery_saver: ^2.0.3
+  flutter_sticky_header: ^0.6.5
 
 dev_dependencies:
   flutter_test:
